@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif; /* Updated body font */
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
@@ -11,10 +11,12 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
-  background-color: #eaf6ff; /* soft light blue background */
+  background: linear-gradient(to bottom, #d3c7eb, #8cb8e7); /* Soft gradient background */
+  padding: 40px; /* Added padding */
 }
 
 .hero img {
+  width: 250px;
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -23,11 +25,14 @@ body {
 .hero h1 {
   margin: 20px 0 10px;
   color: #16213e;
+  font-size: 3em; /* Increased font size using em */
+  font-family: 'Rubik', Arial, sans-serif; /* Updated heading font */
 }
 
 .hero p {
   margin: 10px 0 20px;
   color: #555;
+  font-size: 1.2rem; /* Slightly larger font size */
 }
 
 .hero button {
@@ -36,6 +41,8 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 1.1em; /* Larger button text using em */
+  padding: 20px 40px; /* Increased padding for larger button */
 }
 
 .hero button:hover {
@@ -48,7 +55,8 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin: 40px auto;
-  max-width: 800px;
+  max-width: 900px;
+  font-size: 1.25em;
 }
 
 /* How It Works Section */
@@ -61,7 +69,9 @@ body {
 .how-it-works h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #0f3460
+  color: #0f3460;
+  font-size: 2rem; /* Increased font size */
+  font-family: 'Rubik', Arial, sans-serif; /* Updated heading font */
 }
 
 .how-it-works ol {
@@ -94,6 +104,8 @@ strong {
 .features h2 {
   margin-bottom: 20px;
   color: #1a1a2e;
+  font-size: 2rem; /* Increased font size */
+  font-family: 'Rubik', Arial, sans-serif; /* Updated heading font */
 }
 
 .features ul {
